@@ -1,0 +1,11 @@
+admin:
+  port: 8080
+
+gate:
+  port: 8585
+  timeout: 3000
+
+etcd:
+  endpoints:
+    - 127.0.0.1:7379
+  dial-timeout: 500
